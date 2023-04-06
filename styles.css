@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    color: hsl(192, 100%, 9%);
+}
+
+/* heading & text styles */
+
+h1,h2,h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.description-left,
+.description-right {
+    color: hsl(208, 11%, 55%);
+}
+
+.description-left {
+    padding-right: 100px;
+}
+
+.description-right,
+.fc {
+    padding-left: 100px;
+}
+
+.rtb {
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+/* buttons */
+
+.btn {
+    width: 250px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+.btn-magenta {
+    background: hsl(322, 100%, 66%);
+    width: 350px;
+}
+
+/* top-container */
+
+#top-container {
+    padding: 50px 120px 100px 120px;
+    margin-bottom: 75px;
+}
+
+.bg-hero-img {
+    position: relative;
+}
+
+.hero-d-img,
+.hero-m-img {
+    background-color: hsl(193, 100%, 96%);
+    position: absolute;
+    width: 100vw;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.hero-m-img {
+    opacity: 0;
+}
+
+/* middle-container */
+
+#middle-container {
+    padding: 50px 120px;
+}
+
+.right,
+.left {
+    width: 100%;
+    box-shadow: 5px 5px 10px hsla(208, 11%, 55%, 0.1), -5px -5px 10px hsla(208, 11%, 55%, 0.1);
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    padding: 50px 30px 50px 150px;
+}
+
+.left {
+    flex-direction: row-reverse;
+}
+
+/* sub-bottom-container */
+
+.sub-bottom {
+    width: 50%;
+    height: 260px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: -5px -5px 10px hsla(208, 11%, 55%, 0.1);
+    border-radius: 15px;
+    text-align: center;
+}
+
+/* bottom-container */
+
+footer {
+    margin-top: -90px;
+    z-index:-2;
+}
+
+#bottom-container,
+.attribution {
+    background-color: hsl(192, 100%, 9%);
+    color: hsl(193, 100%, 96%);
+}
+
+#bottom-container {
+    padding: 120px 120px 60px 120px;
+}
+
+.contact-us-details {
+    display: grid;
+    grid-template-columns: 40px 1fr 80px;
+}
+
+.contact-icon {
+    padding-top: 5px;
+}
+
+.fa-brands {
+    width: 40px;
+    height:40px;
+    border-radius: 20px;
+    border: solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.copyright {
+    font-size: 12px;
+    padding-top: 150px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-bottom: 0;
+    padding: 30px 0;
+}
+
+.attribution a { 
+    color: hsl(193, 100%, 96%); 
+}
+
+@media (max-width: 1028px) {
+    body {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    /* heading & text styles */
+
+    .description-left {
+        padding-right: 0;
+    }
+    
+    .description-right,
+    .fc {
+        padding-left: 0;
+    }
+
+    .rtb {
+        font-size: 20px;
+    }
+
+    /* buttons */
+
+    .btn-light {
+        width: 120px;
+        font-size: 12px;
+    }
+
+    .btn-magenta {
+        width: 60vw;
+        font-size: 14px;
+    }
+
+    /* top-container */
+
+    #top-container {
+        padding: 20px;
+        margin-bottom: 50px;
+    }
+
+    .hero-d-img {
+        opacity: 0;
+    }
+
+    .hero-m-img {
+        opacity: 1;
+    }
+
+    .logo-img {
+        width: 60%;
+    }
+
+    .lh-base {
+        padding-top: 80px;
+    }
+
+    .mockup-img {
+        width: 90%;
+    }
+
+    /* middle-container */
+
+    #middle-container {
+        padding: 20px;
+    }
+
+    .right,
+    .left {
+        padding: 30px;
+        margin: 25px 0 50px 0;
+        flex-direction: column-reverse;
+    }
+
+    .grow-tgt-img,
+    .conversation-img,
+    .users-img {
+        padding: 30px 20px 75px 20px;
+    }
+
+    /* sub-bottom-container */
+
+    .sub-bottom {
+        width: 90%;
+        height: 230px;
+    }
+
+    /* bottom-container */
+
+    #bottom-container {
+        padding: 140px 20px 50px 20px;
+        text-align: left;
+    }
+    
+    .bnw-logo-img {
+        width: 45%;
+    }
+
+    .contact-us-details {
+        grid-template-columns: 40px 1fr;
+    }
+
+    .contact-us,
+    .about-us {
+        padding: 30px 10px;
+    }
+
+    .icons {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .copyright {
+        padding-top: 20px;
+        text-align: center;
+    }
+}

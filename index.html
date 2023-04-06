@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap v5.0 CDN (CSS Only) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- Icons from Font Awesome -->
+  <script src="https://kit.fontawesome.com/2484b333e1.js" crossorigin="anonymous"></script>
+
+  <!-- CSS Stylesheet-->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <main>
+    <div class="bg-hero-img">
+      <img class="hero-d-img" src="images/bg-hero-desktop.svg" alt="hero-d-img">
+      <img class="hero-m-img" src="images/bg-hero-mobile.svg" alt="hero-m-img">
+    </div>
+    <div id="top-container">
+      <div class="row d-flex justify-content-between align-items-center">
+        <div class="col text-start">
+          <img class="logo-img" src="images/logo.svg" alt="logo-img">
+        </div>
+        <div class="col text-end">
+          <button type="button" class="btn btn-light rounded-pill shadow-sm p-lg-3 p-sm-1">Try It Free</button>
+        </div>
+      </div>
+      <div class="row gx-5 d-flex align-items-center">
+        <div class="col-lg-5">
+          <h1 class="lh-base">Build The Community Your Fans Will Love</h1>
+          <p class="main-description py-3">Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+            Create connections with your users as you engage in genuine discussion.</p>
+          <button type="button" class="btn btn-magenta rounded-pill shadow p-3 p-sm-2 text-white">Get Started For Free</button>
+        </div>
+        <div class="col-lg-7">
+          <img class="mockup-img img-fluid pt-5" src="images/illustration-mockups.svg" alt="mockup-img">
+        </div>
+      </div>
+    </div>
+
+    <div id="middle-container">
+      <div class="row container-fluid right d-flex align-items-center">
+        <div class="col-lg-7 features">
+          <h3 class="gt">Grow Together</h3>
+          <p class="description-left">Generate meaningful discussions with your audience and build a strong, loyal community.
+            Think of the insightful conversations you miss out on with a feedback form.</p>
+        </div>
+        <div class="col-lg-5">
+          <img class="grow-tgt-img img-fluid" src="images/illustration-grow-together.svg" alt="grow-tgt-img">
+        </div>
+      </div>
+
+      <div class="row container-fluid left d-flex align-items-center">
+        <div class="col-lg-7 features">
+          <h3 class="fc">Flowing Conversations</h3>
+          <p class="description-right">You wouldn't paginate a conversation in real life, so why do it online? Our threads
+            have just-in-time loading for a more natural flow.</p>
+        </div>
+        <div class="col-lg-5">
+          <img class="conversation-img img-fluid" src="images/illustration-flowing-conversation.svg" alt="conversation-img">
+        </div>
+      </div>
+
+      <div class="row container-fluid right d-flex align-items-center">
+        <div class="col-lg-7 features">
+          <h3 class="yu">Your Users</h3>
+          <p class="description-left">It takes no time at all to integrate Huddle with your app's authentication solution.
+            This means, once signed in to your app, your users can start chatting immediately.</p>
+        </div>
+        <div class="col-lg-5">
+          <img class="users-img img-fluid" src="images/illustration-your-users.svg" alt="users-img">
+        </div>
+      </div>
+    </div>
+    <div id="sub-bottom-container position-absolute start-50 translate-middle-x ">
+      <div class="container-fluid sub-bottom py-3">
+        <h2 class="rtb">Ready To Build Your Community?</h2>
+        <button type="button" class="btn btn-magenta rounded-pill shadow p-3 text-white">Get Started For Free</button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="position-absolute">
+    <div id="bottom-container">
+      <img class="bnw-logo-img" src="images/logo-bnw.svg" alt="bnw-logo-img">
+      <div class="row container-fluid bottom px-0 mx-0 mt-4 gx-5 d-flex justify-content-between align-items-start">
+        <div class="col-lg-5 contact-us px-lg-3">
+          <div class="contact-us-details">
+            <img class="contact-icon" src="images/icon-location.svg" alt="location-icon">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua </p>
+          </div>
+          <div class="contact-us-details">
+            <img class="contact-icon" src="images/icon-phone.svg" alt="phone-icon">
+            <p>+1-543-123-4567</p>
+          </div>
+          <div class="contact-us-details">
+            <img class="contact-icon" src="images/icon-email.svg" alt="phone-icon">
+            <p>example@huddle.com</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 about-us">
+          <div class="row">
+            <div class="col-lg-5">
+              <p>About Us</p>
+              <p>What We Do</p>
+              <p>FAQ</p>
+            </div>
+            <div class="col-lg-7">
+              <p>Career</p>
+              <p>Blog</p>
+              <p>Contact Us</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 social">
+          <div class="icons row">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <div class="copyright">&copy; Copyright 2018 Huddle. All rights reserved.</div>
+        </div>
+      </div>
+    </div>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/Jo-cloud85">Jo Young</a>.
+    </p>
+  </footer>
+</body>
+
+</html>
