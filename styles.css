@@ -58,7 +58,7 @@ h1,h2,h3 {
 /* top-container */
 
 #top-container {
-    padding: 50px 120px 100px 120px;
+    padding: 50px 100px 100px 100px;
     margin-bottom: 75px;
 }
 
@@ -84,7 +84,7 @@ h1,h2,h3 {
 /* middle-container */
 
 #middle-container {
-    padding: 50px 120px;
+    padding: 60px 120px;
 }
 
 .right,
@@ -92,7 +92,7 @@ h1,h2,h3 {
     width: 100%;
     box-shadow: 5px 5px 10px hsla(208, 11%, 55%, 0.1), -5px -5px 10px hsla(208, 11%, 55%, 0.1);
     border-radius: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     box-sizing: border-box;
     padding: 50px 30px 50px 150px;
 }
@@ -173,6 +173,11 @@ footer {
 
     /* heading & text styles */
 
+    .lh-base {
+        font-size: 28px;
+        padding-top: 80px;
+    }
+
     .description-left {
         padding-right: 0;
     }
@@ -215,10 +220,6 @@ footer {
 
     .logo-img {
         width: 60%;
-    }
-
-    .lh-base {
-        padding-top: 80px;
     }
 
     .mockup-img {
